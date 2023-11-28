@@ -1,0 +1,94 @@
+year
+km_driven
+mileage
+engine
+max_power
+fuel
+seller_type
+owner
+seats
+year^2
+year engine
+year fuel
+year seller_type
+year transmission
+year seats
+km_driven seats
+mileage^2
+mileage seller_type
+mileage seats
+engine^2
+engine fuel
+engine transmission
+engine seats
+max_power seats
+fuel^2
+fuel seller_type
+fuel seats
+seller_type^2
+seller_type owner
+seller_type seats
+transmission owner
+seats^2
+year^3
+year^2 mileage
+year km_driven seats
+year mileage fuel
+year engine^2
+year engine fuel
+year engine transmission
+year engine owner
+year engine seats
+year max_power seats
+year fuel transmission
+year transmission^2
+year transmission seats
+year owner^2
+year seats^2
+km_driven mileage^2
+km_driven engine fuel
+km_driven fuel^2
+km_driven seats^2
+mileage^3
+mileage^2 engine
+mileage^2 max_power
+mileage^2 fuel
+mileage^2 transmission
+mileage^2 owner
+mileage^2 seats
+mileage engine^2
+mileage engine fuel
+mileage engine transmission
+mileage engine owner
+mileage engine seats
+mileage fuel^2
+mileage fuel transmission
+mileage fuel owner
+mileage seller_type^2
+mileage transmission seats
+mileage seats^2
+engine^3
+engine^2 owner
+engine^2 seats
+engine max_power fuel
+engine fuel^2
+engine fuel transmission
+engine fuel owner
+engine fuel seats
+engine transmission^2
+engine transmission seats
+engine owner seats
+engine seats^2
+max_power fuel^2
+max_power seats^2
+fuel^3
+fuel^2 seller_type
+fuel^2 transmission
+fuel seller_type^2
+fuel transmission^2
+fuel owner seats
+fuel seats^2
+seller_type seats^2
+transmission^2 seats
+transmission seats^2
+seats^3
