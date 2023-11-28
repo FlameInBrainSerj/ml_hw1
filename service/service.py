@@ -1,4 +1,4 @@
-from fastapi import FastAPI, File, UploadFile
+from fastapi import FastAPI, UploadFile
 from fastapi.exceptions import HTTPException
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel, confloat
@@ -139,7 +139,7 @@ def predict_item(item: Item) -> float:
     return pred
 
 
-@app.post("/predict_items", summary="Predict item")
+@app.post("/predict_items", summary="Predict items")
 def predict_items(file: UploadFile) -> StreamingResponse:
     """Get the .csv file with observations and returns same .csv file with
     prediction column - prediciton of each observation' (car) price"""
